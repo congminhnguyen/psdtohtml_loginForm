@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #4f545d url(./images/background.png) repeat top left;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+form {
+    background-color: #f1f2f4;
+    width: 90%;
+    max-width: 475px;
+    height: 475px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(23, 16, 25, 0.75);
+    padding: 0 45px;
+}
+
+#clip {
+    width: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+#clip img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -75px;
+}
+
+#hole {
+    height: 5px;
+    background: #4f545d url(./images/background.png) repeat top left;
+    border-radius: 2.5px;
+    box-shadow: 0 -2px 0 rgba(23, 16, 25, 0.2);
+    width: 100%;
+    margin-top: -4px;
+}
+
+h2 {
+    margin-top: 48px;
+    text-align: center;
+    color: #36383c;
+    font-size: 36px;
+}
+
+p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #7c818b;
+    margin-top: 4px;
+}
+
+#form-container {
+    margin-top: 44px;
+    background-color: #e5e7e9;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(23, 16, 25, 0.45), 0 2px 0 #fff;
+    border: 1px solid #b1b2b4;
+}
+
+input, button {
+    width: 100%;
+}
+
+input[type=text], input[type=password]{
+    background-color: transparent;
+    height: 80px;
+    font-size: 24px;
+    line-height: 30px;
+    border: none;
+    padding-left: 73px;
+    padding-right: 23px;
+    background-repeat: no-repeat;
+    background-position: 24px center;
+
+}
+
+input[type=text]{
+    background-image: url(./images/mail-icon.png);
+    border-bottom: 1px solid #bec0c2;
+}
+
+input[type=password]{
+    background-image: url(./images/password-icon.png);
+    background-position: 28px center;
+    border-top: 1px solid #fff;
+}
+
+button {
+    margin-top: 27px;
+    height: 70px;
+    background: url(./images/btn-background.png) repeat;
+    font-size: 36px;
+    text-shadow: 0 1px 3px rgba(23, 16, 25, 0.55);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #2a8b7b;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
